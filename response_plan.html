@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Response Plan</title>
+    <link rel="stylesheet" href="response_plan.css">
+</head>
+
+<body>
+    <header>
+        <a href="home.html"><img src="imgs/logo_renault.png" alt=""></a>
+        <nav>
+          <a href="">List of Risks</a>
+          <a href="">Dashboard</a>
+          <a href="">Comunication</a>
+        </nav>
+      </header>
+      
+<div class="body">
+        <h1>Response Plan</h1>
+    
+        <form action="" id="form-response-plan">
+            <table>
+
+                <tr>
+                    <td class="campo-input">
+                        <select name="" id="strategy">
+                            <option disabled selected>Strategy</option>
+                            <option value="avoid">Avoid</option>
+                            <option value="mitigate">Mitigate</option>
+                            <option value="transfer">Transfer</option>
+                            <option value="accept">Accept</option>
+                        </select>
+                    </td>
+                    <td class="campo-input"><input type="text" id="pilot-name" placeholder="Pilot Name"></td>
+                    <td class="campo-input"><input type="date" id="initial-date"></td>
+                </tr>
+
+                <tr>
+                    <td class="campo-input"><input type="text" id="action" placeholder="Action"></td>
+                    <td class="campo-input"><input type="text" id="pilot-id" placeholder="Pilot ID"></td>
+                    <td class="campo-input"><input type="date" name="" id="alert-date"></td>
+                </tr>
+
+                <tr>
+                    <td class="campo-input"><input type="text" id="comments" placeholder="Comments"></td>
+                    <td class="campo-input">
+                        <select name="" id="residual-probabilit">
+                            <option disabled selected>Residual Probabilit</option>
+                            <option value="very-low">Very low</option>
+                            <option value="low">Low</option>
+                            <option value="medium">Medium</option>
+                            <option value="high">High</option>
+                            <option value="very-high">Very High</option>
+                        </select>
+                    </td>
+                    <td class="campo-input">
+                        <select name="" id="residual-impact">
+                            <option disabled selected>Residual Impact</option>
+                            <option value="very-low">Very low</option>
+                            <option value="low">Low</option>
+                            <option value="medium">Medium</option>
+                            <option value="high">High</option>
+                            <option value="very-high">Very High</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="campo-input">
+                        <select name="" id="action-validation">
+                            <option disabled selected>Action Validation</option>
+                            <option value="at-risk">At Risk</option>
+                            <option value="in-trajectory">In Trajectory</option>
+                            <option value="resolved">Resolved</option>
+                            <option value="does-not-apply">Does Not Apply Yet</option>
+                        </select>
+                    </td>
+                    <td class="campo-input">
+                        <select name="" id="risk-validation">
+                            <option disabled selected>Risk Validation</option>
+                            <option value="at-risk">At Risk</option>
+                            <option value="in-trajectory">In Trajectory</option>
+                            <option value="resolved">Resolved</option>
+                            <option value="problem">Problem</option>
+                        </select>
+                    </td>
+                    <td class="campo-input"><input type="date" name="" id="resolution-date"></td>
+                </tr>
+
+                <tr>
+                    <td class="campo-input">
+                        <select name="" id="capitalization">
+                            <option disabled selected>Capitalization</option>
+                            <option value="yes">Yes</option>
+                            <option value="no">No</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+        </form>
+
+        <div class="botoes">
+            <button id="cancelar">Cancelar</button>
+            <button id="cadastrar">Cadastrar</button>
+        </div>
+
+</div>
+    
+</body>
+</html>

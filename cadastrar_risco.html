@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Risk Monitoring</title>
+    <link rel="stylesheet" href="cadastrar_risco.css">
+</head>
+
+<body>
+    <header>
+        <a href="home.html"><img src="imgs/logo_renault.png" alt=""></a>
+        <nav>
+          <a href="">List of Risks</a>
+          <a href="">Dashboard</a>
+          <a href="">Comunication</a>
+        </nav>
+      </header>
+      
+<div class="body">
+        <h1>Risk Monitoring</h1>
+    
+        <form action="" id="form-description">
+            <h2>Risk Description</h2>
+    
+            <table>
+                <tr>
+                    <td class="campo-input"><input id="risk" type="text" placeholder="Risk"></td>
+                    <td class="campo-input">
+                        <select name="" id="area-responsible">
+                            <option disabled selected>Area responsible</option>
+                            <option value="apo">APO</option>
+                            <option value="dea-gop">DEA-GOP</option>
+                            <option value="dea-mm">DEA-MM</option>
+                            <option value="dea-pe">DEA-PE</option>
+                            <option value="dea-sc">DEA-SC</option>
+                            <option value="dea-si-sa-sm">DEA-SI/SA/SM</option>
+                            <option value="dea-td">DEA-TD</option>
+                            <option value="dea-va">DEA-VA</option>
+                            <option value="dea-vd">DEA-VD</option>
+                            <option value="de-vb">DE-VB</option>
+                            <option value="de-vd">DE-VD</option>
+                            <option value="ica">ICA</option>
+                            <option value="marketing">Marketing</option>
+                            <option value="sypply-chain">Sypply Chain</option>
+                        </select>
+                    </td>
+                    <td class="campo-input"><input id="consequences" type="text" placeholder="Consequences"></td>
+                </tr>
+    
+                <tr>
+                    <td class="campo-input">
+                        <select name="" id="type-risk">
+                            <option disabled selected>Type of Risk</option>
+                            <option value="conformity">Conformity</option>
+                            <option value="hr">Human Resources (HR)</option>
+                            <option value="operational">Operational</option>
+                            <option value="strategic">Strategic</option>
+                            <option value="technological">Technological</option>
+                        </select>
+                    </td>
+    
+                    <td class="campo-input" id="data"><input type="date" name="entry-date" id="entry-date"></td>
+                    <td class="campo-input"><input type="text" id="project" placeholder="Project"></td>
+    
+                </tr>
+    
+                <tr>
+                    <td class="campo-input">
+                        <select name="" id="metier">
+                            <option disabled selected>Metier</option>
+                            <option value="apo">APO</option>
+                            <option value="dea-gop">DEA-GOP</option>
+                            <option value="dea-mm">DEA-MM</option>
+                            <option value="dea-pe">DEA-PE</option>
+                            <option value="dea-sc">DEA-SC</option>
+                            <option value="dea-si-sa-sm">DEA-SI/SA/SM</option>
+                            <option value="dea-td">DEA-TD</option>
+                            <option value="dea-va">DEA-VA</option>
+                            <option value="dea-vd">DEA-VD</option>
+                            <option value="de-vb">DE-VB</option>
+                            <option value="de-vd">DE-VD</option>
+                            <option value="ica">ICA</option>
+                            <option value="marketing">Marketing</option>
+                            <option value="sypply-chain">Sypply Chain</option>
+                        </select>
+                    </td>
+    
+                    <td class="campo-input">
+                        <select name="" id="jalon">
+                            <option disabled selected>Jalon</option>
+                            <option value="pre-concept">PRE-CONCEPT</option>
+                            <option value="concept-freeze">CONCEPT FREEZE</option>
+                            <option value="vpc">VPC</option>
+                            <option value="cost-confirmation">COST CONFIRMATION</option>
+                            <option value="contract">CONTRACT</option>
+                            <option value="tlc">TLC</option>
+                            <option value="abvc">ABVC</option>
+                            <option value="abpt">ABPT</option>
+                            <option value="ppc">PPC</option>
+                            <option value="sop">SOP</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+    
+            <h2>Qualitative Analysis</h2>
+    
+            <table>
+                <tr>
+                    <td class="campo-input">
+                        <select name="" id="probabilit">
+                            <option disabled selected>Probabilit</option>
+                            <option value="very-low">Very low</option>
+                            <option value="low">Low</option>
+                            <option value="medium">Medium</option>
+                            <option value="high">High</option>
+                            <option value="very-high">Very High</option>
+                        </select>
+                    </td>
+    
+                    <td class="campo-input">
+                        <select name="" id="impact">
+                            <option disabled selected>Impact</option>
+                            <option value="very-low">Very low</option>
+                            <option value="low">Low</option>
+                            <option value="medium">Medium</option>
+                            <option value="high">High</option>
+                            <option value="very-high">Very High</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+        </form>
+        <div class="response"><a href="response_plan.html" id="response-plan"><h2>Response Plan</h2></a></div>
+
+        <div class="botoes">
+            <button id="cancelar">Cancelar</button>
+            <button id="cadastrar">Cadastrar</button>
+        </div>
+
+</div>
+    
+</body>
+</html>
